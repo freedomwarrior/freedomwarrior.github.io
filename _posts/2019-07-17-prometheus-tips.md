@@ -1,7 +1,3 @@
-
-
-
-
 ## How to clear prometheus database?
  
 First, you need to enable admin API by passing the `--web.enable-admin-api` command line flag to Prometheus, then you can provide selectors for the time series you wish to remove:

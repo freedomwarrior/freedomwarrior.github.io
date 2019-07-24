@@ -1,4 +1,4 @@
-### WireGuard server side configure
+#### WireGuard server side configure
 
 Put this in `/etc/wireguard/wg0.conf`:
 ```
@@ -27,7 +27,7 @@ AllowedIPs = 10.5.0.3/32
   - `PublicKey` - peer public key, generated via `wg genkey`
   - `AllowedIPs` - peer ip-address 
  
- ### WireGuard client side configure
+ #### WireGuard client side configure
  
  `/etc/wireguard/wg0.conf`:
  ```
